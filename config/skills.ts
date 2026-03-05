@@ -22,13 +22,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.react,
   },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
+  // {
+  //   name: "GraphQL",
+  //   description:
+  //     "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+  //   rating: 4,
+  //   icon: Icons.graphql,
+  // },
   {
     name: "Nest.js",
     description:
@@ -50,13 +50,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.nodejs,
   },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   description:
+  //     "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+  //   rating: 5,
+  //   icon: Icons.mongodb,
+  // },
   {
     name: "Typescript",
     description:
@@ -92,13 +92,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.react,
   },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
+  // {
+  //   name: "Angular",
+  //   description:
+  //     "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+  //   rating: 3,
+  //   icon: Icons.angular,
+  // },
   {
     name: "Redux",
     description:
@@ -106,13 +106,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.redux,
   },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
+  // {
+  //   name: "Socket.io",
+  //   description:
+  //     "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+  //   rating: 3,
+  //   icon: Icons.socketio,
+  // },
   {
     name: "Material UI",
     description:
@@ -128,13 +128,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.tailwindcss,
   },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
+  // {
+  //   name: "AWS",
+  //   description:
+  //     "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+  //   rating: 3,
+  //   icon: Icons.amazonaws,
+  // },
   {
     name: "Bootstrap",
     description:
@@ -142,13 +142,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 2,
     icon: Icons.bootstrap,
   },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
+  // {
+  //   name: "MySQL",
+  //   description:
+  //     "Manage and organize relational databases efficiently for data-driven applications.",
+  //   rating: 2,
+  //   icon: Icons.mysql,
+  // },
   {
     name: "Netlify",
     description:

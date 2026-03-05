@@ -96,7 +96,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
+  // const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
+  const GA_ID = 'G-XXXXXXXXXX'; // Replace with your actual GA Measurement ID
   if (!GA_ID) {
     throw new Error("Missing Google Analytics ID");
   }

@@ -1,5 +1,6 @@
 export type ValidSkills =
   | "Next.js"
+  | "JavaScript"
   | "React"
   | "GraphQL"
   | "Nest.js"

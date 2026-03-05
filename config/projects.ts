@@ -29,14 +29,14 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "portfolio-template",
-    companyName: "Portfolio Website (130+ GitHub stars)",
+    id: "portfolio-website",
+    companyName: "Portfolio Website",
     type: "Personal",
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
-      "Open-source Next.js portfolio template recognized and forked by developers worldwide, optimized for SEO/AEO and performance.",
-    websiteLink: "https://nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/minimal-next-portfolio",
+      "A clean, minimal landing page with sections for skills, projects, contributions, and experience.",
+    websiteLink: "https://adebeganga001",
+    githubLink: "https://github.com/fiyingithub/portfolio-frontend",
     techStack: [
       "Next.js",
       "React",
@@ -53,77 +53,77 @@ export const Projects: ProjectInterface[] = [
         title: "Landing & Sections",
         description:
           "A clean, minimal landing page with sections for skills, projects, contributions, and experience.",
-        imgArr: ["/profile-img.jpg"],
+        imgArr: ["/profile-img.jpeg"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "I created an open-source Next.js portfolio template to help developers ship a modern, responsive portfolio quickly.",
-        "The project focuses heavily on performance, clean typography, and strong SEO/AEO foundations, and it has been adopted and forked by developers globally.",
+        "This portfolio website is a personal project that I built to showcase my skills, projects, contributions, and experience in a clean and minimal design. It serves as a central hub for my professional presence online.",
+        "The website is built with Next.js and React, utilizing TypeScript for type safety and Tailwind CSS for styling. I also integrated Framer Motion for smooth animations and transitions throughout the site.",
       ],
       bullets: [
-        "Created an open-source Next.js portfolio template recognized and forked by developers worldwide.",
-        "Ranked #1 on ChatGPT search for “best Next.js portfolio template GitHub” through AEO/GEO optimization.",
-        "Maintained a fast, responsive UI with a minimal, themeable design system.",
+        "Designed and developed a personal portfolio website with a clean, minimal design.",
+        "Implemented sections for skills, projects, contributions, and experience to effectively showcase my professional profile.",
+        "Utilized Next.js and React for a modern web development stack, with TypeScript for enhanced type safety.",
       ],
     },
   },
   {
-    id: "convot",
-    companyName: "Convot",
+    id: "unistay",
+    companyName: "Unistay",
     type: "Personal",
-    category: ["Full Stack", "Backend", "Web Dev"],
+    category: ["Full Stack", "Backend", "Frontend", "Web Dev"],
     shortDescription:
-      "Production-ready AI chatbot platform that crawls, indexes, and embeds knowledge from PDFs/URLs/text to deliver source-grounded answers via a one-line widget.",
-    techStack: ["Next.js", "React", "Node.js", "Typescript", "Python"],
+      "A comprehensive housing rental web application with user authentication, property listings, booking management, and a responsive design for seamless user experience across devices.",
+    techStack: [ "React", "Node.js", "express.js", "Typescript", "MySQL", "Tailwind CSS"],
     startDate: new Date("2024-04-01"),
     endDate: new Date("2024-10-01"),
-    companyLogoImg: "/projects/convot/logo.png",
+    companyLogoImg: "/unistay-img.png",
     pagesInfoArr: [
       {
-        title: "Ingestion & Retrieval",
+        title: "Unistay",
         description:
-          "Designed ingestion and retrieval pipelines supporting multiple content sources with secure tenant isolation.",
-        imgArr: ["/logo.png"],
+          "Unistay is a production-ready Housing Rental Web Application. It features user authentication, property listings, booking management, and a responsive design for seamless user experience across devices.",
+        imgArr: ["/unistay-img.png"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Convot is a production-ready AI chatbot platform designed to be embedded on any website with a single line widget.",
-        "It supports crawling and indexing knowledge from PDFs, URLs, and plain text, and it returns context-aware, source-grounded answers with integrated analytics.",
+        "Unistay is a comprehensive housing rental web application that I developed as a personal project. The platform allows users to browse property listings, manage bookings, and provides a seamless experience across devices.",
+        "The application is built with React for the frontend, Node.js and express.js for the backend, and MySQL for data storage. Tailwind CSS was used for styling and responsive design.",
       ],
       bullets: [
-        "Built a production-ready AI chatbot platform with integrated analytics and a one-line embed widget.",
-        "Designed ingestion and retrieval pipelines to support multiple sources (PDFs, URLs, text) with tenant isolation.",
-        "Focused on reliability, security, and traceable answers by grounding responses in retrieved sources.",
+        "Developed a full-stack housing rental web application with user authentication and property listing features.",
+        "Utilized React for the frontend, Node.js and express.js for the backend, and MySQL for data storage.",
+        "Implemented responsive design for a seamless user experience across devices.",
       ],
     },
   },
   {
-    id: "niya-saas-template",
-    companyName: "Niya SaaS Template (30+ GitHub stars)",
+    id: "medlink",
+    companyName: "MedLink",
     type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+    category: ["Frontend", "Web Dev", "UI/UX"],
     shortDescription:
-      "Production-ready Next.js 15 template for developers and AI startups. Includes authentication, state management, beautiful UI components, and everything needed to build scalable SaaS applications.",
-    websiteLink: "https://niya.nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/niya-saas-template",
-    techStack: ["Next.js", "React", "Typescript", "Supabase", "Tailwind CSS"],
+      "MedLink is a healthcare appointment booking platform that connects patients with doctors. It features a user-friendly interface for browsing doctors, booking appointments, and managing healthcare needs.",
+    websiteLink: "https://medlink-health.netlify.app/",
+    githubLink: "https://github.com/fiyingithub/MedLink",
+    techStack: [ "React",  "JavaScript", "Tailwind CSS"],
     startDate: new Date("2024-08-01"),
     endDate: new Date("2025-01-01"),
-    companyLogoImg: "/projects/niya/logo.png",
+    companyLogoImg: "/medlink-img.png",
     pagesInfoArr: [
       {
-        title: "Landing Page",
+        title: "MedLink Landing Page",
         description:
           "Modern landing page showcasing the template features, tech stack, and pricing options.",
-        imgArr: ["/logo.png"],
+        imgArr: ["/medlink-img.png"],
       },
       {
         title: "Authentication System",
         description:
           "Complete authentication system with Supabase, protected routes, and role-based access control.",
-        imgArr: ["/logo.png"],
+        imgArr: ["/medlink-login-img.png", "/image.png"],
       },
       {
         title: "Dashboard & Components",
@@ -134,20 +134,20 @@ export const Projects: ProjectInterface[] = [
     ],
     descriptionDetails: {
       paragraphs: [
-        "Niya is a production-ready Next.js 15 template designed for developers and AI startups. Built with modern best practices, it includes everything needed to build scalable SaaS applications.",
-        "The template features a complete authentication system with Supabase, beautiful UI components with Magic UI and Radix primitives, state management with Zustand and React Query, and full TypeScript support with Zod validation.",
-        "It's optimized for performance, includes SEO-friendly metadata, and provides a solid foundation for rapid prototyping and production deployment.",
+        "MedLink is a healthcare appointment booking platform that I developed as a personal project. The platform connects patients with doctors, allowing users to browse doctor profiles, book appointments, and manage their healthcare needs.",
+        "The application is built with React for the frontend, Supabase for authentication and data management, and Tailwind CSS for styling and responsive design.",
       ],
       bullets: [
-        "Created a production-ready Next.js 15 template with complete authentication system and protected routes.",
-        "Integrated Supabase for database, authentication, and real-time features with full TypeScript support.",
-        "Built comprehensive UI component library with Magic UI, Radix primitives, and Tailwind CSS styling.",
-        "Implemented state management with Zustand for client state and React Query for server state management.",
-        "Designed for developers and AI startups with all essential features to start building SaaS products.",
-        "Achieved 30+ GitHub stars and recognition as a comprehensive starter template for modern web applications.",
+        "Created a healthcare appointment booking platform connecting patients with doctors.",
+        "Utilized React for the frontend, Supabase for authentication and data management, and Tailwind CSS for styling and responsive design.",
+        "Implemented responsive design for a seamless user experience across devices.",
+        "Provided a user-friendly interface for browsing doctors, booking appointments, and managing healthcare needs.",
       ],
     },
   },
+
+  
+
   {
     id: "portfolio-card",
     companyName: "Portfolio Card",
@@ -497,99 +497,105 @@ export const Projects: ProjectInterface[] = [
     },
   },
 
-  {
-    id: "cirql-dashboard",
-    companyName: "Cirql Dashboard",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
-    shortDescription:
-      "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
-    websiteLink: "https://cirql-ui.namanbarkiya.xyz/",
-    techStack: ["React", "Tailwind CSS", "Google Auth"],
-    startDate: new Date("2023-01-01"),
-    endDate: new Date("2023-02-15"),
-    companyLogoImg: "/projects/cirql/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Dashboard Home",
-        description:
-          "Main dashboard view with analytics widgets and data visualization",
-        imgArr: ["/projects/cirql/web_1.png", "/projects/cirql/web_2.png"],
-      },
-      {
-        title: "Profile Page",
-        description:
-          "User profile management interface with customization options",
-        imgArr: ["/projects/cirql/web_3.png", "/projects/cirql/web_4.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
-        "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
-        "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
-        "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
-        "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
-      ],
-      bullets: [
-        "Created a user-friendly dashboard project using React and Tailwind CSS.",
-        "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
-        "Designed UI components to provide an intuitive and visually pleasing experience.",
-        "Focused on implementing a smooth routing system to simulate real-world use cases.",
-        "Enhanced my skills in UI design, routing, and component architecture.",
-      ],
-    },
-  },
-  {
-    id: "inscript-hindi-typing",
-    companyName: "Inscript Hindi Typing",
-    type: "Personal",
-    category: ["Web Dev", "UI/UX"],
-    shortDescription:
-      "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
-    websiteLink: "https://hindityping.namanbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/inscript-hindi-keyboard",
-    techStack: ["HTML 5", "CSS 3", "Javascript"],
-    startDate: new Date("2022-05-01"),
-    endDate: new Date("2022-06-15"),
-    companyLogoImg: "/projects/hindi-keyboard/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Typing Interface",
-        description: "Minimal and user-friendly Inscript Hindi typing area",
-        imgArr: ["/projects/hindi-keyboard/web_1.png"],
-      },
-      {
-        title: "Copy and Download the file",
-        description:
-          "Export functionality allowing users to copy text or download as a document file",
-        imgArr: [
-          "/projects/hindi-keyboard/web_2.png",
-          "/projects/hindi-keyboard/web_3.png",
-        ],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The 'Inscript Hindi Typing Website' project emerged from the need to provide a simple and accessible tool for Hindi writers, especially those in digital news and media, who wished to convey data in Hindi.",
-        "Recognizing the challenges posed by complex software in the market, I set out to create a minimalistic typing area that catered to the needs of a vast community of Hindi typists in India.",
-        "The project was designed to address the specific requirements of users familiar with the Inscript keyboard layout, mapping English and Hindi alphabets for seamless typing. The intuitive interface allowed users to effortlessly switch between languages, streamlining the process of content creation.",
-        "Leveraging HTML and CSS, I crafted the website's UI to ensure a user-friendly experience. Additionally, Local Storage was utilized to enable users to save and retrieve their work, enhancing convenience and productivity.",
-        "The website's focus on user experience and simplicity proved to be a key factor in its popularity among Hindi writers. By offering a tool that reduced the barriers to entry, I contributed to the digital empowerment of Hindi typists who previously faced challenges in conveying their message effectively.",
-        "This project marked one of my initial forays into web development and highlighted the transformative potential of technology in addressing real-world challenges.",
-      ],
-      bullets: [
-        "Developed a user-friendly website for Inscript Hindi typing.",
-        "Catered to the needs of Hindi writers in digital news and media.",
-        "Created a minimalistic and intuitive typing interface for the Inscript keyboard layout.",
-        "Mapped English and Hindi alphabets to provide a seamless typing experience.",
-        "Utilized HTML and CSS to design a user-friendly UI.",
-        "Implemented Local Storage to enable users to save and retrieve their work.",
-        "Contributed to the digital empowerment of Hindi typists by offering a simple tool.",
-        "Marked one of my first web development projects, showcasing technology's potential for addressing real-world needs.",
-      ],
-    },
-  },
 ];
 
 export const featuredProjects = Projects.slice(0, 3);
+
+
+
+
+
+
+  // {
+  //   id: "cirql-dashboard",
+  //   companyName: "Cirql Dashboard",
+  //   type: "Personal",
+  //   category: ["Web Dev", "Frontend", "UI/UX"],
+  //   shortDescription:
+  //     "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
+  //   websiteLink: "https://cirql-ui.namanbarkiya.xyz/",
+  //   techStack: ["React", "Tailwind CSS", "Google Auth"],
+  //   startDate: new Date("2023-01-01"),
+  //   endDate: new Date("2023-02-15"),
+  //   companyLogoImg: "/projects/cirql/logo.png",
+  //   pagesInfoArr: [
+  //     {
+  //       title: "Dashboard Home",
+  //       description:
+  //         "Main dashboard view with analytics widgets and data visualization",
+  //       imgArr: ["/projects/cirql/web_1.png", "/projects/cirql/web_2.png"],
+  //     },
+  //     {
+  //       title: "Profile Page",
+  //       description:
+  //         "User profile management interface with customization options",
+  //       imgArr: ["/projects/cirql/web_3.png", "/projects/cirql/web_4.png"],
+  //     },
+  //   ],
+  //   descriptionDetails: {
+  //     paragraphs: [
+  //       "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
+  //       "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
+  //       "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
+  //       "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
+  //       "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
+  //     ],
+  //     bullets: [
+  //       "Created a user-friendly dashboard project using React and Tailwind CSS.",
+  //       "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
+  //       "Designed UI components to provide an intuitive and visually pleasing experience.",
+  //       "Focused on implementing a smooth routing system to simulate real-world use cases.",
+  //       "Enhanced my skills in UI design, routing, and component architecture.",
+  //     ],
+  //   },
+  // },
+  // {
+  //   id: "inscript-hindi-typing",
+  //   companyName: "Inscript Hindi Typing",
+  //   type: "Personal",
+  //   category: ["Web Dev", "UI/UX"],
+  //   shortDescription:
+  //     "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
+  //   websiteLink: "https://hindityping.namanbarkiya.xyz",
+  //   githubLink: "https://github.com/namanbarkiya/inscript-hindi-keyboard",
+  //   techStack: ["HTML 5", "CSS 3", "Javascript"],
+  //   startDate: new Date("2022-05-01"),
+  //   endDate: new Date("2022-06-15"),
+  //   companyLogoImg: "/projects/hindi-keyboard/logo.png",
+  //   pagesInfoArr: [
+  //     {
+  //       title: "Typing Interface",
+  //       description: "Minimal and user-friendly Inscript Hindi typing area",
+  //       imgArr: ["/projects/hindi-keyboard/web_1.png"],
+  //     },
+  //     {
+  //       title: "Copy and Download the file",
+  //       description:
+  //         "Export functionality allowing users to copy text or download as a document file",
+  //       imgArr: [
+  //         "/projects/hindi-keyboard/web_2.png",
+  //         "/projects/hindi-keyboard/web_3.png",
+  //       ],
+  //     },
+  //   ],
+  //   descriptionDetails: {
+  //     paragraphs: [
+  //       "The 'Inscript Hindi Typing Website' project emerged from the need to provide a simple and accessible tool for Hindi writers, especially those in digital news and media, who wished to convey data in Hindi.",
+  //       "Recognizing the challenges posed by complex software in the market, I set out to create a minimalistic typing area that catered to the needs of a vast community of Hindi typists in India.",
+  //       "The project was designed to address the specific requirements of users familiar with the Inscript keyboard layout, mapping English and Hindi alphabets for seamless typing. The intuitive interface allowed users to effortlessly switch between languages, streamlining the process of content creation.",
+  //       "Leveraging HTML and CSS, I crafted the website's UI to ensure a user-friendly experience. Additionally, Local Storage was utilized to enable users to save and retrieve their work, enhancing convenience and productivity.",
+  //       "The website's focus on user experience and simplicity proved to be a key factor in its popularity among Hindi writers. By offering a tool that reduced the barriers to entry, I contributed to the digital empowerment of Hindi typists who previously faced challenges in conveying their message effectively.",
+  //       "This project marked one of my initial forays into web development and highlighted the transformative potential of technology in addressing real-world challenges.",
+  //     ],
+  //     bullets: [
+  //       "Developed a user-friendly website for Inscript Hindi typing.",
+  //       "Catered to the needs of Hindi writers in digital news and media.",
+  //       "Created a minimalistic and intuitive typing interface for the Inscript keyboard layout.",
+  //       "Mapped English and Hindi alphabets to provide a seamless typing experience.",
+  //       "Utilized HTML and CSS to design a user-friendly UI.",
+  //       "Implemented Local Storage to enable users to save and retrieve their work.",
+  //       "Contributed to the digital empowerment of Hindi typists by offering a simple tool.",
+  //       "Marked one of my first web development projects, showcasing technology's potential for addressing real-world needs.",
+  //     ],
+  //   },
+  // },
