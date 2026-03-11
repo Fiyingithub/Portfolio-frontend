@@ -14,6 +14,10 @@ export type ValidSkills =
   | "React Native"
   | "Angular"
   | "Redux"
+  | "React Query"
+  | "Zustand"
+  | "Tailwind"
+  | "Styled Components"
   | "Socket.io"
   | "Material UI"
   | "Tailwind CSS"
@@ -61,6 +65,17 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "API Integration"
+  | "Responsive Design"
+  | "Authentication"
+  | "Payment Integration"
+  | "WebSockets"
+  | "Accessibility"
+  | "Server-side Rendering"
+  | "Performance Optimization"
+  | "Role-based Access Control"
+  | "Chart.js"
+  | "UI/UX Design"
   | "Framer Motion";
 
 export type ValidCategory =
@@ -70,6 +85,11 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
+  | "Fintech"
+  | "E-commerce"
+  | "EdTech"
+  | "Healthcare"
+  | "Real Estate"
   | "3D Modeling";
 
 export type ValidExpType = "Personal" | "Professional";

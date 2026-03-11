@@ -10,7 +10,7 @@ import CustomTooltip from "@/components/ui/custom-tooltip";
 import { Projects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { cn, formatDateFromObj } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpg";
+import profileImg from "@/public/profile-img.jpeg";
 
 interface ProjectPageProps {
   params: Promise<{
@@ -76,7 +76,7 @@ export default async function Project({ params }: ProjectPageProps) {
               alt={"naman"}
               width={42}
               height={42}
-              className="rounded-full bg-background"
+              className="rounded-full bg-background w-16 h-16 object-cover border-2 border-accent"
             />
 
             <div className="flex-1 text-left leading-tight">

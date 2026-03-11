@@ -1,21 +1,21 @@
 export const siteConfig = {
   name: "Adekoya Adegbenga Oluwatosin - Frontend Developer",
   authorName: "Adekoya Adegbenga Oluwatosin",
-  username: "adebeganga001",
+  username: "phiyin001",
   description:
-    "Adekoya Adegbenga Oluwatosin - Frontend Developer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
-  url: "https://adebeganga001.xyz",
+    "Adekoya Adegbenga Oluwatosin – Frontend Developer.  Passionate about building intuitive, scalable, and high-performance web applications. I work at the intersection of AI, data, and modern software systems, combining clean design with efficient, maintainable code. Explore my projects, experience, and contributions in software development and AI.",
+  url: "https://phiyin001.xyz",
   links: {
     twitter: "https://x.com/phiyin001?s=21",
     github: "https://github.com/fiyingithub",
     templateRepo: "https://github.com/fiyingithub/portfolio-frontend",
   },
   ogImage:
-    "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
+    "/profile-img.jpeg",
   iconIco:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+    "/profile-img.jpeg",
   logoIcon:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+    "/profile-img.jpeg",
   keywords: [
     "Adekoya Adegbenga Oluwatosin",
     "Frontend Developer",

@@ -29,20 +29,20 @@ export const skillsUnsorted: skillsInterface[] = [
   //   rating: 4,
   //   icon: Icons.graphql,
   // },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
+  // {
+  //   name: "Nest.js",
+  //   description:
+  //     "Create scalable and modular applications with a progressive Node.js framework.",
+  //   rating: 4,
+  //   icon: Icons.nestjs,
+  // },
+  // {
+  //   name: "express.js",
+  //   description:
+  //     "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+  //   rating: 5,
+  //   icon: Icons.express,
+  // },
   {
     name: "Node.js",
     description:
@@ -106,13 +106,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.redux,
   },
-  // {
-  //   name: "Socket.io",
-  //   description:
-  //     "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-  //   rating: 3,
-  //   icon: Icons.socketio,
-  // },
+  {
+    name: "Socket.io",
+    description:
+      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+    rating: 3,
+    icon: Icons.socketio,
+  },
   {
     name: "Material UI",
     description:
