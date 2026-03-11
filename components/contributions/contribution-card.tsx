@@ -14,7 +14,8 @@ export default function ContributionCard({
     <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
       {contributions.map((contribution, id) => (
         <Link
-          href={contribution.link}
+          // href={contribution.link}
+          href={ "#"}
           target="_blank"
           key={id}
           className="w-full min-w-0 h-full"

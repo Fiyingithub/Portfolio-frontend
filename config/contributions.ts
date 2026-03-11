@@ -2,7 +2,7 @@ export interface contributionsInterface {
   repo: string;
   contibutionDescription: string;
   repoOwner: string;
-  link?: string;
+  // link?: string | null;
 }
 
 export const contributionsUnsorted: contributionsInterface[] = [
@@ -11,7 +11,7 @@ export const contributionsUnsorted: contributionsInterface[] = [
     contibutionDescription:
       "A cooperative management platform designed to help members manage savings, contributions, and financial activities within the cooperative.",
     repoOwner: "solomonojox",
-    link: "#",
+    // link: "#",
   },
   // {
   //   repo: "niya-saas-template",
