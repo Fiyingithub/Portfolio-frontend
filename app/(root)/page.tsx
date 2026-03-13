@@ -20,6 +20,7 @@ import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpeg";
+import { ContactForm } from "@/components/forms/contact-form";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
@@ -75,7 +76,7 @@ export default function IndexPage() {
       />
 
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-12">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center mt-32 md:mt-24">
           <Image
             src={profileImg}
             height={150}
@@ -275,6 +276,25 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
+      </AnimatedSection>
+
+      <AnimatedSection direction="up" className="container max-w-[600px] space-y-6 py-10">
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <AnimatedText
+            as="h2"
+            className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl"
+          >
+            {pagesConfig.contact.title}
+          </AnimatedText>
+          <AnimatedText
+            as="p"
+            delay={0.2}
+            className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+          >
+            {pagesConfig.contact.description}
+          </AnimatedText>
+        </div>
+        <ContactForm />
       </AnimatedSection>
     </ClientPageWrapper>
   );
